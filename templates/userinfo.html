@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %} User Info{% endblock %}
+
+{% block content %}
+<br>
+<h4 class="text-center"> JWT: 
+    <div class="d-flex flex-column ml-auto text-break text-center overflow-auto">{{jwt_var}}</div>
+   
+</h4> 
+<br>
+<h4 class="text-center"> sub/user_id:
+    <div class="d-flex flex-column ml-auto text-break text-center overflow-auto">{{sub}}</div>
+</h4>
+
+{% endblock %}
